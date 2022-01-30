@@ -324,12 +324,14 @@ section .title span::after{
 }
 .about .about-details .left{
   width: 45%;
+
 }
 .about .left img{
+
   height: 400px;
-  width: 400px;
+  width: 350px;
   object-fit: cover;
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 .about-details .right{
   width: 55%;
@@ -346,6 +348,7 @@ section  .topic{
 }
 
 section .button{
+
   margin: 16px 0;
 }
 section .button button{
@@ -359,6 +362,7 @@ section .button button{
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
+
 }
 section .button button:hover{
   border-color: #4070f4;
@@ -828,6 +832,7 @@ ul.timeline-list li:before {
 .contact{
   background: #F0F8FF;
   align-items: center;
+  padding-bottom:2%;
 }
 .contact .content{
   margin: 0 auto;
@@ -857,6 +862,11 @@ ul.timeline-list li:before {
 .fa:hover {
     opacity: 0.7;
 }
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
 .fa-github {
   background: #2c4762;
   color: white;
